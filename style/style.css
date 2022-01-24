@@ -1,0 +1,128 @@
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+   background-image: linear-gradient(#C8DAE3, #7FA5BA);
+   background-repeat: no-repeat;
+   height: 100vh;
+    display: flex; 
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.messenger {
+     width: 250px;
+     height: 100px auto 0;
+     background-color: #fff;
+   width: 470px;
+   height: 620px;
+  
+}
+.header {
+    display: flex;
+    justify-content: space-between; 
+    list-style-type: disc;
+    background-color:#44639e ;
+    padding: 10px 10px; 
+    margin-bottom: 24px;
+}
+.header-site-tip{
+  
+    width: 5px ;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.today{
+padding-left: 8px;
+color: #aeafaf;
+}
+.header-site-mark{
+   display: flex;
+   align-items: center;
+}
+.chat-prifile {
+    color: #fff;
+}
+.close {
+    text-decoration: none;
+    color: #feffff;
+}
+.close:hover{
+    color: #4c5353;
+}
+.content { 
+     padding-left: 40px;
+}
+.chat-date {
+    margin-bottom: 48px; 
+}
+.messanges {
+}
+.message-sent {
+    margin-bottom: 55px;
+    background-color: #d3e1ee;
+    padding: 10px 10px;
+    width: 370px;
+    border-radius: 8px;
+}
+
+.sent {
+    margin-bottom: 35px;
+    background-color: #d3e1ee;
+    padding: 10px 10px;
+    border-radius: 8px;
+    width: 111px;
+}
+.time {
+    margin-left: 380px;
+   color:  #a9b0b8;
+}
+.times{
+color: #a9b0b8;
+}
+.timer{
+    color: #a9b0b8;
+}
+.text {
+}
+.received {
+    margin-bottom: 80px;
+    margin-left: 50px;
+    background-color: #e6e6e6;
+    border-radius:4px;
+    padding: 10px 10px;
+    width: 370px;
+
+}
+.warning {
+    margin-bottom: 40px;
+    margin-left: 200px;
+    width: 210px;
+    background-color: #eec4ce;
+    padding: 10px 10px;
+border-radius: 8px;
+}
+.footer-site-form{
+    margin-top: 30px;
+    border: transparent;
+}
+.footer-inpunt{
+    border: none;
+    margin-right: 100px;
+}
+.footer-inpunt-site{
+    border: transparent;
+    background-color:#fff ;
+    color: #44639e;
+}
+hr{
+
+    width: 400px ;
+}
